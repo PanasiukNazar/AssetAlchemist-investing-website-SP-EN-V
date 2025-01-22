@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>AssetAlchemist</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="bg-white p-0">
+            <!-- Spinner Start -->
+            <div
+                id="spinner"
+                class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+            >
+                <div
+                    class="spinner-border text-primary"
+                    style="width: 3rem; height: 3rem"
+                    role="status"
+                >
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <!-- Spinner End -->
+
+            <!-- Navbar & Hero Start -->
+            <div class="position-relative p-0">
+                <nav
+                    class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
+                >
+                    <a href="" class="navbar-brand p-0">
+                        <h1 class="text-primary m-0">AssetAlchemist</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0 pe-4">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Home</a
+                            >
+                            <a href="#about.html" class="nav-item nav-link"
+                                >About</a
+                            >
+                            <a href="#service" class="nav-item nav-link"
+                                >Service</a
+                            >
+                            <a href="#blog" class="nav-item nav-link">Blog</a>
+                            <a href="#contact" class="nav-item nav-link"
+                                >Contact</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+                <div class="py-5 bg-dark hero-header mb-5">
+                    <div class="container my-5 py-5">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-6 text-center text-lg-start">
+                                <h1
+                                    class="display-3 text-white animated slideInLeft"
+                                >
+                                    Discover the Power of<br />Effective Trading
+                                    Tools
+                                </h1>
+                                <p
+                                    class="text-white animated slideInLeft mb-4 pb-2"
+                                >
+                                    Unlock the secrets to mastering investing
+                                    and trading tools. Focused on key skills
+                                    like technical analysis, market research,
+                                    and risk management, this content provides
+                                    valuable tools for professionals. Learn how
+                                    to make informed decisions, optimize your
+                                    strategies, and improve your trading
+                                    performance for both personal and financial
+                                    success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar & Hero End -->
+
+            <!-- About Start -->
+            <div id="about" class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="row g-3">
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid rounded w-100 wow zoomIn"
+                                        data-wow-delay="0.1s"
+                                        src="img/about-1.jpg"
+                                    />
+                                </div>
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid rounded w-75 wow zoomIn"
+                                        data-wow-delay="0.3s"
+                                        src="img/about-2.jpg"
+                                        style="margin-top: 25%"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid rounded w-75 wow zoomIn"
+                                        data-wow-delay="0.5s"
+                                        src="img/about-3.jpg"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid rounded w-100 wow zoomIn"
+                                        data-wow-delay="0.7s"
+                                        src="img/about-4.jpg"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5
+                                class="section-title ff-secondary text-start text-primary fw-normal"
+                            >
+                                About Us
+                            </h5>
+                            <h1 class="mb-4">Welcome to AssetAlchemist</h1>
+                            <p class="mb-4">
+                                Our platform is designed to help you excel in
+                                the world of trading and investing. We focus on
+                                essential tools and strategies like technical
+                                analysis, market research, and risk management.
+                                Whether you're exploring stocks,
+                                cryptocurrencies, or other assets, our
+                                comprehensive insights provide the foundation
+                                for mastering trading.
+                            </p>
+                            <p class="mb-4">
+                                Develop the skills to make informed investment
+                                decisions, optimize your trading strategies, and
+                                improve your performance in the financial
+                                markets.
+                            </p>
+                            <div class="row g-4 mb-4">
+                                <div class="col-sm-6">
+                                    <div
+                                        class="d-flex align-items-center border-start border-5 border-primary px-3"
+                                    >
+                                        <h1
+                                            class="flex-shrink-0 display-5 text-primary mb-0"
+                                            data-toggle="counter-up"
+                                        >
+                                            15
+                                        </h1>
+                                        <div class="ps-4">
+                                            <p class="mb-0">Years of</p>
+                                            <h6 class="text-uppercase mb-0">
+                                                Experience
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div
+                                        class="d-flex align-items-center border-start border-5 border-primary px-3"
+                                    >
+                                        <h1
+                                            class="flex-shrink-0 display-5 text-primary mb-0"
+                                            data-toggle="counter-up"
+                                        >
+                                            50
+                                        </h1>
+                                        <div class="ps-4">
+                                            <p class="mb-0">Projects</p>
+                                            <h6 class="text-uppercase mb-0">
+                                                Completed
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn btn-primary py-3 px-5 mt-2" href=""
+                                >Read More</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Service Start -->
+            <div id="services" class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Our Services
+                        </h5>
+                        <h1 class="mb-5">What You'll Learn</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-3 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-chart-line text-primary mb-4"
+                                    ></i>
+                                    <h5>Technical Analysis</h5>
+                                    <p>
+                                        Master the art of analyzing market
+                                        trends, price movements, and indicators
+                                        to make informed trading decisions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-search text-primary mb-4"
+                                    ></i>
+                                    <h5>Market Research</h5>
+                                    <p>
+                                        Learn how to research and evaluate
+                                        different asset classes, track market
+                                        performance, and identify profitable
+                                        opportunities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-shield-alt text-primary mb-4"
+                                    ></i>
+                                    <h5>Risk Management</h5>
+                                    <p>
+                                        Develop strategies to manage risk,
+                                        protect your capital, and optimize the
+                                        potential for returns in volatile
+                                        markets.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-users text-primary mb-4"
+                                    ></i>
+                                    <h5>Client Investment Strategies</h5>
+                                    <p>
+                                        Build and maintain customized investment
+                                        strategies for clients, ensuring that
+                                        their portfolios align with their goals.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+
+            <!-- Team Start -->
+            <div class="container-xxl pt-5 pb-3">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Team Members
+                        </h5>
+                        <h1 class="mb-5">Our Trading and Investing Experts</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">Alexandra Bennett</h5>
+                                <small>Investment Strategy Advisor</small>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-2.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">David Chen</h5>
+                                <small>Market Analysis Expert</small>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-3.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">Emily Nguyen</h5>
+                                <small>Trading Strategies Consultant</small>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-4.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">Michael Johnson</h5>
+                                <small>Risk Management Specialist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team End -->
+
+            <!-- Video Modal -->
+            <div
+                class="modal fade"
+                id="videoModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Course Overview Video
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    class="embed-responsive-item"
+                                    src=""
+                                    id="video"
+                                    allowfullscreen
+                                    allowscriptaccess="always"
+                                    allow="autoplay"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Video Modal End -->
+
+            <!-- Testimonial Start -->
+            <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="text-center">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Testimonial
+                        </h5>
+                        <h1 class="mb-5">Our Clients Say!!!</h1>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel">
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                The tools for trading and investing provided
+                                were incredibly useful. I gained hands-on
+                                experience with trading platforms and learned
+                                actionable strategies to enhance my investment
+                                approach. Highly recommended!
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-1.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">John D.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                I learned so much about investing strategies.
+                                The course provided insights into market
+                                analysis and trading tools that were perfectly
+                                suited for both beginners and seasoned traders.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-2.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Anna T.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                The trading tools and platforms discussed in the
+                                course helped me develop a solid investment
+                                strategy. I now feel confident using trading
+                                tools to maximize my returns.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-3.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Andrew B.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                I’ve attended many investment courses, but this
+                                one stood out. The content on trading tools and
+                                market analysis was practical and easy to apply.
+                                Thank you for such a valuable learning
+                                experience!
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-4.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Emma R.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+            <div class="container-xxl pt-5 pb-3">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Our Blog
+                        </h5>
+                        <h1 class="mb-5">
+                            Stay up to date with the latest insights on
+                            Investing and Trading
+                        </h1>
+                    </div>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-4 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                style="padding: 20px; padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div
+                                    class="rounded-circle overflow-hidden"
+                                    style="
+                                        margin-bottom: 20px;
+                                        border-radius: 0 !important;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/blog-1.jpg"
+                                        alt=""
+                                        style="border-radius: 0px !important"
+                                    />
+                                </div>
+                                <h5 class="mb-0">
+                                    Best Practices in Trading for Beginners
+                                </h5>
+                                <small
+                                    >Learn the best strategies for beginners
+                                    looking to dive into the world of trading.
+                                    Discover essential tools and methods to
+                                    enhance your success rate in trading.</small
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div
+                                style="padding: 20px; padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div
+                                    class="rounded-circle overflow-hidden"
+                                    style="
+                                        margin-bottom: 20px;
+                                        border-radius: 0 !important;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/blog-2.jpg"
+                                        alt=""
+                                        style="border-radius: 0px !important"
+                                    />
+                                </div>
+                                <h5 class="mb-0">
+                                    Tips for Mastering Investment Strategies
+                                </h5>
+                                <small
+                                    >Explore universal principles of investing
+                                    and learn how to build a strong portfolio.
+                                    Gain insights into market trends and learn
+                                    to make informed decisions.</small
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div
+                                style="padding: 20px; padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div
+                                    class="rounded-circle overflow-hidden"
+                                    style="
+                                        margin-bottom: 20px;
+                                        border-radius: 0 !important;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/blog-3.jpg"
+                                        alt=""
+                                        style="border-radius: 0px !important"
+                                    />
+                                </div>
+                                <h5 class="mb-0">
+                                    How to Use Trading Tools Effectively
+                                </h5>
+                                <small
+                                    >Master the tools used by successful
+                                    traders. From charting software to automated
+                                    trading bots, learn how to use these tools
+                                    to increase your trading success.</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Start -->
+            <div id="contact" class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Contact Us
+                        </h5>
+                        <h1 class="mb-5">Contact For Any Query</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9931.62012233202!2d-0.10144131284181852!3d51.5149583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760334588eaf8b%3A0xf8509517fb534ec1!2sProactive%20Investors%20UK!5e0!3m2!1suk!2sua!4v1737551772866!5m2!1suk!2sua"
+                                width="100%"
+                                frameborder="0"
+                                style="min-height: 350px; border: 0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wow fadeInUp" data-wow-delay="0.2s">
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="name"
+                                                    placeholder="Your Name"
+                                                />
+                                                <label for="name"
+                                                    >Your Name</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="email"
+                                                    class="form-control"
+                                                    id="email"
+                                                    placeholder="Your Email"
+                                                />
+                                                <label for="email"
+                                                    >Your Email</label
+                                                >
+                                                <div
+                                                    id="result"
+                                                    style="color: red"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="subject"
+                                                    placeholder="Subject"
+                                                />
+                                                <label for="subject"
+                                                    >Subject</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea
+                                                    class="form-control"
+                                                    placeholder="Leave a message here"
+                                                    id="message"
+                                                    style="height: 150px"
+                                                ></textarea>
+                                                <label for="message"
+                                                    >Message</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div>
+                                                <input
+                                                    type="checkbox"
+                                                    checked
+                                                />
+                                                <label for="message"
+                                                    >I agree to the
+                                                    AssetAlchemist Privacy
+                                                    Policy</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button
+                                                class="btn btn-primary w-100 py-3"
+                                                type="submit"
+                                                id="submit"
+                                                onclick="sendForm()"
+                                            >
+                                                Send Message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+
+            <!-- Footer Start -->
+            <div
+                class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-6 col-md-6">
+                            <h4
+                                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                            >
+                                Tools for Investing & Trading
+                            </h4>
+                            <p>
+                                Connect with us to explore the best tools for
+                                investing and trading. Our team of experts is
+                                here to guide you through the process of making
+                                smart, informed decisions in the world of
+                                trading and investments. Whether you're new to
+                                the field or an experienced trader, we offer
+                                tools tailored to help you achieve your
+                                financial goals.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <h4
+                                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                            >
+                                Contact us
+                            </h4>
+                            <p class="mb-2">
+                                <i class="fa fa-map-marker-alt me-3"></i>Second
+                                Floor, 35 Great St Helen's, City of London,
+                                London EC3A 6AP, UK
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-phone-alt me-3"></i
+                                >+442079890813
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-envelope me-3"></i
+                                >assetai_chemist@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <h4
+                                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                            >
+                                Quick links
+                            </h4>
+                            <div
+                                style="
+                                    display: flex;
+                                    flex-direction: column;
+                                    row-gap: 10px;
+                                "
+                            >
+                                <a href="index.html">Home</a>
+                                <a href="privacy-policy.html">Privacy</a>
+                                <a href="terms-of-use.html">Terms of use</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <h4
+                                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                            >
+                                Disclaimer
+                            </h4>
+                            <p>
+                                Values can fall as well as rise. Any information
+                                relating to the past performance is not a guide
+                                to future performance. Prices may go down as
+                                well as up, and you may not get back the
+                                original amount invested. Aurum & Argenti
+                                Limited is not regulated by the Financial
+                                Conduct Authority and does not offer investment
+                                or tax advice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+                ><i class="bi bi-arrow-up"></i
+            ></a>
+
+            <!-- Cookie banner -->
+            <div class="cookie-wrapper show">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">Cookie Consent</h2>
+                </div>
+
+                <div class="data">
+                    <p>
+                        This website uses cookies to provide you with a superior
+                        and more relevant browsing experience on the site.
+                        <a href="privacy-policy.html">Learn more...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">Accept</button>
+                    <button class="cookie-button" id="declineBtn">
+                        Decline
+                    </button>
+                </div>
+            </div>
+            <!-- End Cookie banner -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
