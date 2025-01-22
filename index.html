@@ -64,12 +64,12 @@
             <!-- Spinner End -->
 
             <!-- Navbar & Hero Start -->
-            <div class="position-relative p-0">
+            <div id="hero" class="position-relative p-0">
                 <nav
                     class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
                 >
                     <a href="" class="navbar-brand p-0">
-                        <h1 class="text-primary m-0">AssetAlchemist</h1>
+                        <h1 class="text-primary m-0">Partner Broker</h1>
                         <!-- <img src="img/logo.png" alt="Logo"> -->
                     </a>
                     <button
@@ -95,9 +95,6 @@
                                 class="nav-item nav-link"
                                 >Service</a
                             >
-                            <a href="index.html#blog" class="nav-item nav-link"
-                                >Blog</a
-                            >
                             <a
                                 href="index.html#contact"
                                 class="nav-item nav-link"
@@ -113,22 +110,109 @@
                                 <h1
                                     class="display-3 text-white animated slideInLeft"
                                 >
-                                    Discover the Power of<br />Effective Trading
-                                    Tools
+                                    Experience the Benefits of<br />Trading with
+                                    a Trusted Partner Broker
                                 </h1>
                                 <p
                                     class="text-white animated slideInLeft mb-4 pb-2"
                                 >
-                                    Unlock the secrets to mastering investing
-                                    and trading tools. Focused on key skills
-                                    like technical analysis, market research,
-                                    and risk management, this content provides
-                                    valuable tools for professionals. Learn how
-                                    to make informed decisions, optimize your
-                                    strategies, and improve your trading
-                                    performance for both personal and financial
-                                    success.
+                                    Discover the numerous advantages of trading
+                                    with our partner broker. Benefit from
+                                    competitive fees, secure transactions,
+                                    dedicated support, and access to diverse
+                                    financial assets. Take your trading
+                                    experience to the next level with a reliable
+                                    partner by your side.
                                 </p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                                    <form>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="name"
+                                                        placeholder="Your Name"
+                                                    />
+                                                    <label for="name"
+                                                        >Your Name</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input
+                                                        type="email"
+                                                        class="form-control"
+                                                        id="email"
+                                                        placeholder="Your Email"
+                                                    />
+                                                    <label for="email"
+                                                        >Your Email</label
+                                                    >
+                                                    <div
+                                                        id="result"
+                                                        style="color: red"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-floating">
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="subject"
+                                                        placeholder="Subject"
+                                                    />
+                                                    <label for="subject"
+                                                        >Subject</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-floating">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="Leave a message here"
+                                                        id="message"
+                                                        style="height: 150px"
+                                                    ></textarea>
+                                                    <label for="message"
+                                                        >Message</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div>
+                                                    <input
+                                                        type="checkbox"
+                                                        checked
+                                                    />
+                                                    <label
+                                                        for="message"
+                                                        style="color: #fff"
+                                                    >
+                                                        I agree to the Privacy
+                                                        Policy
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button
+                                                    class="btn btn-primary w-100 py-3"
+                                                    type="submit"
+                                                    id="submit"
+                                                    onclick="sendForm()"
+                                                >
+                                                    Send Message
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -179,22 +263,21 @@
                             >
                                 About Us
                             </h5>
-                            <h1 class="mb-4">Welcome to AssetAlchemist</h1>
+                            <h1 class="mb-4">
+                                Why Trade with Our Partner Broker?
+                            </h1>
                             <p class="mb-4">
-                                Our platform is designed to help you excel in
-                                the world of trading and investing. We focus on
-                                essential tools and strategies like technical
-                                analysis, market research, and risk management.
-                                Whether you're exploring stocks,
-                                cryptocurrencies, or other assets, our
-                                comprehensive insights provide the foundation
-                                for mastering trading.
+                                Our partner broker offers unparalleled benefits
+                                to help you succeed in the competitive world of
+                                trading. With features like competitive fees,
+                                advanced tools, and robust security, you gain
+                                the confidence to trade effectively and achieve
+                                your investment goals.
                             </p>
                             <p class="mb-4">
-                                Develop the skills to make informed investment
-                                decisions, optimize your trading strategies, and
-                                improve your performance in the financial
-                                markets.
+                                Join the growing community of traders who have
+                                transformed their financial future with the
+                                support of a trusted partner broker.
                             </p>
                             <div class="row g-4 mb-4">
                                 <div class="col-sm-6">
@@ -234,8 +317,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="btn btn-primary py-3 px-5 mt-2" href=""
-                                >Read More</a
+                            <a
+                                class="btn btn-primary py-3 px-5 mt-2"
+                                href="#hero"
+                                >Contact Us</a
                             >
                         </div>
                     </div>
@@ -252,79 +337,63 @@
                         >
                             Our Services
                         </h5>
-                        <h1 class="mb-5">What You'll Learn</h1>
+                        <h1 class="mb-5">
+                            Benefits of Trading with a Partner Broker
+                        </h1>
                     </div>
                     <div class="row g-4">
                         <div
-                            class="col-lg-3 col-sm-6 wow fadeInUp"
+                            class="col-lg-4 col-sm-6 wow fadeInUp"
                             data-wow-delay="0.1s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-check-circle text-primary mb-4"
+                                    ></i>
+                                    <h5>Reliable Support</h5>
+                                    <p>
+                                        Enjoy dedicated customer support to
+                                        address your trading queries and help
+                                        you navigate market challenges
+                                        effectively.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-handshake text-primary mb-4"
+                                    ></i>
+                                    <h5>Trust and Transparency</h5>
+                                    <p>
+                                        Trade with confidence knowing your
+                                        investments are handled with utmost
+                                        transparency and integrity by your
+                                        partner broker.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
                         >
                             <div class="service-item rounded pt-3">
                                 <div class="p-4">
                                     <i
                                         class="fa fa-3x fa-solid fa-chart-line text-primary mb-4"
                                     ></i>
-                                    <h5>Technical Analysis</h5>
+                                    <h5>Access to Markets</h5>
                                     <p>
-                                        Master the art of analyzing market
-                                        trends, price movements, and indicators
-                                        to make informed trading decisions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-3 col-sm-6 wow fadeInUp"
-                            data-wow-delay="0.3s"
-                        >
-                            <div class="service-item rounded pt-3">
-                                <div class="p-4">
-                                    <i
-                                        class="fa fa-3x fa-solid fa-search text-primary mb-4"
-                                    ></i>
-                                    <h5>Market Research</h5>
-                                    <p>
-                                        Learn how to research and evaluate
-                                        different asset classes, track market
-                                        performance, and identify profitable
-                                        opportunities.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-3 col-sm-6 wow fadeInUp"
-                            data-wow-delay="0.5s"
-                        >
-                            <div class="service-item rounded pt-3">
-                                <div class="p-4">
-                                    <i
-                                        class="fa fa-3x fa-solid fa-shield-alt text-primary mb-4"
-                                    ></i>
-                                    <h5>Risk Management</h5>
-                                    <p>
-                                        Develop strategies to manage risk,
-                                        protect your capital, and optimize the
-                                        potential for returns in volatile
-                                        markets.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-3 col-sm-6 wow fadeInUp"
-                            data-wow-delay="0.7s"
-                        >
-                            <div class="service-item rounded pt-3">
-                                <div class="p-4">
-                                    <i
-                                        class="fa fa-3x fa-solid fa-users text-primary mb-4"
-                                    ></i>
-                                    <h5>Client Investment Strategies</h5>
-                                    <p>
-                                        Build and maintain customized investment
-                                        strategies for clients, ensuring that
-                                        their portfolios align with their goals.
+                                        Gain access to a wide range of financial
+                                        markets and trading instruments tailored
+                                        to your investment goals.
                                     </p>
                                 </div>
                             </div>
@@ -333,99 +402,6 @@
                 </div>
             </div>
             <!-- Service End -->
-
-            <!-- Team Start -->
-            <div class="container-xxl pt-5 pb-3">
-                <div class="container">
-                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h5
-                            class="section-title ff-secondary text-center text-primary fw-normal"
-                        >
-                            Team Members
-                        </h5>
-                        <h1 class="mb-5">Our Trading and Investing Experts</h1>
-                    </div>
-                    <div class="row g-4">
-                        <div
-                            class="col-lg-3 col-md-6 wow fadeInUp"
-                            data-wow-delay="0.1s"
-                        >
-                            <div
-                                style="padding-bottom: 70px"
-                                class="team-item text-center rounded overflow-hidden"
-                            >
-                                <div class="overflow-hidden m-4">
-                                    <img
-                                        class="img-fluid"
-                                        src="img/team-1.jpg"
-                                        alt=""
-                                    />
-                                </div>
-                                <h5 class="mb-0">Alexandra Bennett</h5>
-                                <small>Investment Strategy Advisor</small>
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-3 col-md-6 wow fadeInUp"
-                            data-wow-delay="0.3s"
-                        >
-                            <div
-                                style="padding-bottom: 70px"
-                                class="team-item text-center rounded overflow-hidden"
-                            >
-                                <div class="overflow-hidden m-4">
-                                    <img
-                                        class="img-fluid"
-                                        src="img/team-2.jpg"
-                                        alt=""
-                                    />
-                                </div>
-                                <h5 class="mb-0">David Chen</h5>
-                                <small>Market Analysis Expert</small>
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-3 col-md-6 wow fadeInUp"
-                            data-wow-delay="0.5s"
-                        >
-                            <div
-                                style="padding-bottom: 70px"
-                                class="team-item text-center rounded overflow-hidden"
-                            >
-                                <div class="overflow-hidden m-4">
-                                    <img
-                                        class="img-fluid"
-                                        src="img/team-3.jpg"
-                                        alt=""
-                                    />
-                                </div>
-                                <h5 class="mb-0">Emily Nguyen</h5>
-                                <small>Trading Strategies Consultant</small>
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-3 col-md-6 wow fadeInUp"
-                            data-wow-delay="0.7s"
-                        >
-                            <div
-                                style="padding-bottom: 70px"
-                                class="team-item text-center rounded overflow-hidden"
-                            >
-                                <div class="overflow-hidden m-4">
-                                    <img
-                                        class="img-fluid"
-                                        src="img/team-4.jpg"
-                                        alt=""
-                                    />
-                                </div>
-                                <h5 class="mb-0">Michael Johnson</h5>
-                                <small>Risk Management Specialist</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Team End -->
 
             <!-- Video Modal -->
             <div
@@ -439,7 +415,7 @@
                     <div class="modal-content rounded-0">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">
-                                Course Overview Video
+                                Overview Video: Partner Broker Benefits
                             </h5>
                             <button
                                 type="button"
@@ -475,7 +451,7 @@
                         >
                             Testimonial
                         </h5>
-                        <h1 class="mb-5">Our Clients Say!!!</h1>
+                        <h1 class="mb-5">What Our Clients Say</h1>
                     </div>
                     <div class="owl-carousel testimonial-carousel">
                         <div
@@ -485,11 +461,10 @@
                                 class="fa fa-quote-left fa-2x text-primary mb-3"
                             ></i>
                             <p>
-                                The tools for trading and investing provided
-                                were incredibly useful. I gained hands-on
-                                experience with trading platforms and learned
-                                actionable strategies to enhance my investment
-                                approach. Highly recommended!
+                                Partnering with a broker provided me with
+                                exceptional access to financial markets and
+                                personalized guidance. It made my trading
+                                experience seamless and more profitable.
                             </p>
                             <div class="d-flex align-items-center">
                                 <img
@@ -498,7 +473,7 @@
                                     style="width: 50px; height: 50px"
                                 />
                                 <div class="ps-3">
-                                    <h5 class="mb-1">John D.</h5>
+                                    <h5 class="mb-1">Michael R.</h5>
                                 </div>
                             </div>
                         </div>
@@ -509,10 +484,10 @@
                                 class="fa fa-quote-left fa-2x text-primary mb-3"
                             ></i>
                             <p>
-                                I learned so much about investing strategies.
-                                The course provided insights into market
-                                analysis and trading tools that were perfectly
-                                suited for both beginners and seasoned traders.
+                                The support and transparency from the partner
+                                broker gave me the confidence to explore
+                                investment opportunities. I highly recommend
+                                their services for anyone serious about trading.
                             </p>
                             <div class="d-flex align-items-center">
                                 <img
@@ -521,7 +496,7 @@
                                     style="width: 50px; height: 50px"
                                 />
                                 <div class="ps-3">
-                                    <h5 class="mb-1">Anna T.</h5>
+                                    <h5 class="mb-1">Sarah L.</h5>
                                 </div>
                             </div>
                         </div>
@@ -532,10 +507,10 @@
                                 class="fa fa-quote-left fa-2x text-primary mb-3"
                             ></i>
                             <p>
-                                The trading tools and platforms discussed in the
-                                course helped me develop a solid investment
-                                strategy. I now feel confident using trading
-                                tools to maximize my returns.
+                                Thanks to the partner broker, I gained access to
+                                exclusive resources and expertise that made
+                                trading much more efficient. The results have
+                                been outstanding.
                             </p>
                             <div class="d-flex align-items-center">
                                 <img
@@ -544,7 +519,7 @@
                                     style="width: 50px; height: 50px"
                                 />
                                 <div class="ps-3">
-                                    <h5 class="mb-1">Andrew B.</h5>
+                                    <h5 class="mb-1">Daniel P.</h5>
                                 </div>
                             </div>
                         </div>
@@ -555,11 +530,9 @@
                                 class="fa fa-quote-left fa-2x text-primary mb-3"
                             ></i>
                             <p>
-                                I’ve attended many investment courses, but this
-                                one stood out. The content on trading tools and
-                                market analysis was practical and easy to apply.
-                                Thank you for such a valuable learning
-                                experience!
+                                Working with the partner broker has been a
+                                game-changer for my investment journey. Their
+                                platform and customer support are unmatched.
                             </p>
                             <div class="d-flex align-items-center">
                                 <img
@@ -568,7 +541,7 @@
                                     style="width: 50px; height: 50px"
                                 />
                                 <div class="ps-3">
-                                    <h5 class="mb-1">Emma R.</h5>
+                                    <h5 class="mb-1">Jessica K.</h5>
                                 </div>
                             </div>
                         </div>
@@ -576,205 +549,6 @@
                 </div>
             </div>
             <!-- Testimonial End -->
-
-            <div id="blog" class="container-xxl pt-5 pb-3">
-                <div class="container">
-                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h5
-                            class="section-title ff-secondary text-center text-primary fw-normal"
-                        >
-                            Our Blog
-                        </h5>
-                        <h1 class="mb-5">
-                            Stay up to date with the latest insights on
-                            Investing and Trading
-                        </h1>
-                    </div>
-                    <div class="row g-4">
-                        <div
-                            class="col-lg-6 col-md-6 wow fadeInUp"
-                            data-wow-delay="0.1s"
-                        >
-                            <div
-                                style="padding: 20px; padding-bottom: 70px"
-                                class="team-item text-center rounded overflow-hidden"
-                            >
-                                <div
-                                    class="rounded-circle overflow-hidden"
-                                    style="
-                                        margin-bottom: 20px;
-                                        border-radius: 0 !important;
-                                    "
-                                >
-                                    <img
-                                        class="img-fluid"
-                                        src="img/blog-1.jpg"
-                                        alt=""
-                                        style="border-radius: 0px !important"
-                                    />
-                                </div>
-                                <h5 class="mb-0">
-                                    Best Practices in Trading for Beginners
-                                </h5>
-                                <small
-                                    >Learn the best strategies for beginners
-                                    looking to dive into the world of trading.
-                                    Discover essential tools and methods to
-                                    enhance your success rate in trading.</small
-                                >
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-6 col-md-6 wow fadeInUp"
-                            data-wow-delay="0.3s"
-                        >
-                            <div
-                                style="padding: 20px; padding-bottom: 70px"
-                                class="team-item text-center rounded overflow-hidden"
-                            >
-                                <div
-                                    class="rounded-circle overflow-hidden"
-                                    style="
-                                        margin-bottom: 20px;
-                                        border-radius: 0 !important;
-                                    "
-                                >
-                                    <img
-                                        class="img-fluid"
-                                        src="img/blog-2.jpg"
-                                        alt=""
-                                        style="border-radius: 0px !important"
-                                    />
-                                </div>
-                                <h5 class="mb-0">
-                                    Tips for Mastering Investment Strategies
-                                </h5>
-                                <small
-                                    >Explore universal principles of investing
-                                    and learn how to build a strong portfolio.
-                                    Gain insights into market trends and learn
-                                    to make informed decisions.</small
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Contact Start -->
-            <div id="contact" class="container-xxl py-5">
-                <div class="container">
-                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h5
-                            class="section-title ff-secondary text-center text-primary fw-normal"
-                        >
-                            Contact Us
-                        </h5>
-                        <h1 class="mb-5">Contact For Any Query</h1>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9931.62012233202!2d-0.10144131284181852!3d51.5149583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760334588eaf8b%3A0xf8509517fb534ec1!2sProactive%20Investors%20UK!5e0!3m2!1suk!2sua!4v1737551772866!5m2!1suk!2sua"
-                                width="100%"
-                                frameborder="0"
-                                style="min-height: 350px; border: 0"
-                                allowfullscreen=""
-                                aria-hidden="false"
-                                tabindex="0"
-                            ></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <form>
-                                    <div class="row g-3">
-                                        <div class="col-md-6">
-                                            <div class="form-floating">
-                                                <input
-                                                    type="text"
-                                                    class="form-control"
-                                                    id="name"
-                                                    placeholder="Your Name"
-                                                />
-                                                <label for="name"
-                                                    >Your Name</label
-                                                >
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-floating">
-                                                <input
-                                                    type="email"
-                                                    class="form-control"
-                                                    id="email"
-                                                    placeholder="Your Email"
-                                                />
-                                                <label for="email"
-                                                    >Your Email</label
-                                                >
-                                                <div
-                                                    id="result"
-                                                    style="color: red"
-                                                ></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <input
-                                                    type="text"
-                                                    class="form-control"
-                                                    id="subject"
-                                                    placeholder="Subject"
-                                                />
-                                                <label for="subject"
-                                                    >Subject</label
-                                                >
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <textarea
-                                                    class="form-control"
-                                                    placeholder="Leave a message here"
-                                                    id="message"
-                                                    style="height: 150px"
-                                                ></textarea>
-                                                <label for="message"
-                                                    >Message</label
-                                                >
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div>
-                                                <input
-                                                    type="checkbox"
-                                                    checked
-                                                />
-                                                <label for="message"
-                                                    >I agree to the
-                                                    AssetAlchemist Privacy
-                                                    Policy</label
-                                                >
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <button
-                                                class="btn btn-primary w-100 py-3"
-                                                type="submit"
-                                                id="submit"
-                                                onclick="sendForm()"
-                                            >
-                                                Send Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Contact End -->
 
             <!-- Footer Start -->
             <div
@@ -787,24 +561,26 @@
                             <h4
                                 class="section-title ff-secondary text-start text-primary fw-normal mb-4"
                             >
-                                Tools for Investing & Trading
+                                Registered address
                             </h4>
-                            <p>
-                                Connect with us to explore the best tools for
-                                investing and trading. Our team of experts is
-                                here to guide you through the process of making
-                                smart, informed decisions in the world of
-                                trading and investments. Whether you're new to
-                                the field or an experienced trader, we offer
-                                tools tailored to help you achieve your
-                                financial goals.
+                            <p class="mb-2">
+                                <i class="fa fa-map-marker-alt me-3"></i>51
+                                Moorgate, City of London, London EC2R 6LL, UK
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-phone-alt me-3"></i
+                                >+442077499950
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-envelope me-3"></i
+                                >assetai_chemist@gmail.com
                             </p>
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <h4
                                 class="section-title ff-secondary text-start text-primary fw-normal mb-4"
                             >
-                                Contact us
+                                Trading address
                             </h4>
                             <p class="mb-2">
                                 <i class="fa fa-map-marker-alt me-3"></i>Second
@@ -817,7 +593,7 @@
                             </p>
                             <p class="mb-2">
                                 <i class="fa fa-envelope me-3"></i
-                                >assetai_chemist@gmail.com
+                                >assetai_chemist_trade@gmail.com
                             </p>
                         </div>
                         <div class="col-lg-6 col-md-6">
@@ -845,14 +621,13 @@
                                 Disclaimer
                             </h4>
                             <p>
-                                Values can fall as well as rise. Any information
-                                relating to the past performance is not a guide
-                                to future performance. Prices may go down as
-                                well as up, and you may not get back the
-                                original amount invested. Aurum & Argenti
-                                Limited is not regulated by the Financial
-                                Conduct Authority and does not offer investment
-                                or tax advice.
+                                Trading involves risk, and values can fall as
+                                well as rise. Past performance is not indicative
+                                of future results. Always trade responsibly and
+                                consult with a financial advisor if needed.
+                                Please be aware that prices may go down as well
+                                as up, and you may not get back the original
+                                amount invested.
                             </p>
                         </div>
                     </div>
